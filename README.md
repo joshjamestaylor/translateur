@@ -1,32 +1,32 @@
-##Translateur
-Translateur is a Vue.js application that allows you to translate text from any European language to any other European language. This app is written in JavaScript and uses the power of the Google Translate API to provide accurate translations.
+# Translateur
 
-#Getting Started
-To get started with Translateur, simply clone this repository to your local machine and follow these steps:
+Translateur is a Vue/Nuxt application that translates a word to all European languages and places the translated word onto their respective country. The application is built using JavaScript and utilizes the Google Translate API to perform the translations.
 
-Install the required dependencies by running npm install
-Add your Google Translate API key to the .env file
-Run the app by executing npm run serve
-Features
-Translateur provides the following features:
+## Installation
 
-Translation from any European language to any other European language
-Language detection based on the user's input
-Input validation to ensure that the input text is not too long or too short
-Automatic text scrolling for long translations
-Responsive design for use on desktop or mobile devices
-Dependencies
-Translateur uses the following dependencies:
+Use the node package manager [npm]() to install Translateur.
 
-Vue.js
-Nuxt3
-API Key
-Translateur requires a Google Translate API key to function. To obtain an API key, please follow the instructions provided by Google.
+```bash
+npm install
+```
 
-Once you have obtained an API key, simply add it to the .env file in the root directory of this app.
+## Usage
+To use the Translateur application, follow these steps:
 
-Contributing
-We welcome contributions from the community! To contribute to Translateur, simply fork this repository, make your changes, and submit a pull request. Please ensure that your code adheres to the Vue.js style guide.
+- Enter a word or phrase to translate in the input field at the top of the page.
+- Click the "Translate" button to initiate the translation process.
+- The application will automatically translate the word or phrase to all European languages and display the translated word onto their respective country.
 
-License
-Translateur is licensed under the MIT license. See the LICENSE file for more details.
+
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
